@@ -1,0 +1,13 @@
+Define: Diferentes iconos en las listas sin orden <ol> <ul>:
+
+OL van de manera numérica, la única manera de cambiar el icono es especificarle en el 'value=' con que numero aparece.
+	Puedes poner el value dentro del <ol value=> o del <li value=>, pero si por ejemplo especificas en uno solo
+	el número que quieres que aparezca el resto seguiran el orden de el número que hayas puesto.
+
+UL van por símbolos, que pueden variar desde un círculo con fondo blanco, un cuadrado con fondo negro y 
+un círculo con fondo negro, todo esto va seguido con el añadido a la etiqueta <ul> o <li> 'type='.
+
+Define: ¿Puede haber dos <dd> con un solo <dt> segudios?:
+
+Si que puede haber dos etiquetas <dd> dentro de un <dt> ya que unicamente se dedican para definir lo que significa la 
+etiqueta <dt> y puede haber más de una definición.
