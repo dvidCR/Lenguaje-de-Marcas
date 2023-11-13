@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!--Indicamos que version de html vamos a usar-->
+<html lang="es"> <!--Abrimos la etiqueta html especificandole el idioma en español-->
+<head><!--Abrimos la cabezera / head-->
+  <meta charset="UTF-8"> <!--Con esto ponemos los caracteres especiales, quitando esas interrogaciones-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!--Sirve para definir qué área de pantalla-->
+
+  <title>Ejemplo de Estilos</title> <!--Sirve para ponerle titulo al html-->
+  <style> /*Sirve para hacer un css interno*/
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 20px;
+    } /* Cambia el fondo de pantalla, el estilo de las letras y su color de la etiqueta body*/
+
+    
+    .titulo {
+      font-size: 24px;
+      color: #007bff;
+      text-align: center;
+    } /* Class llamada titulo que todos aquellos que llamen a esta clase cambiaran su color a azul, su tamaño
+    de letra y se centraran*/
+
+    
+    #parrafoDestacado {
+      font-style: italic;
+      color: #ff6600;
+    } /*Id llamada parrafoDestacado que la única etiqueta que tenga este id cambiara su estilo de letra y color*/
+
+    
+    input[type="text"] {
+      padding: 5px;
+      width: 200px;
+      margin-bottom: 10px;
+    } /* Cambia todos los input tipo texto a establecer el área de relleno de 5 pixeles, moverlo lateralmente
+    200 pixeles y el especaio que ocupa hacia abajo de 10 piexeles*/
+
+    
+    div p {
+      font-size: 16px;
+      line-height: 1.5;
+    } /* Todos los p dentro de un div tendran un tamño de 16 pixeles y su altura*/
+
+    
+    div > p:first-child {
+      font-weight: bold;
+    } /* Le pone negrita al primer p de la etiqueta div*/
+
+    
+    div > p:last-child {
+      color: #28a745;
+    } /* Le pone el color verde al ultimo p de la etiqueta div*/
+
+    
+    a {
+      color: #007bff;
+      text-decoration: none;
+    } /* El color de todos los enlaces cambiara a azul y no tendra decoracion de texto*/
+
+    
+    a:visited {
+      color: #6c757d;
+    } /* Cuando ya hemos visitado la página que hay en el enlace su color cambiara a gris*/
+
+    
+    a:hover {
+      text-decoration: underline;
+    } /* Cuando tienes el raton encima del enlace cabia la decoracion del texto*/
+  </style> <!--Se acaba el css interno-->
+</head> <!--Se cierra la cabezera / head-->
+<body> <!--Se abre la etiqueta del cuerpo de página / body-->
+  <h1 class="titulo">Ejemplo de Estilos</h1> <!--La etiqueta que funciona como índice y el más grande de todos
+    / h1 con class titulo-->
+
+  <div> <!--Abrimos un contenedor-->
+    <p>Este es un párrafo normal.</p> <!--Etiqueta de texto-->
+    <p id="parrafoDestacado">Este párrafo está destacado.</p> <!--Etiqueta de texto con el id parrafoDestacado-->
+    <p>¡Explora los estilos!</p> <!--Otra etiqueta de texto-->
+  </div> <!--Se cierra el contenedor-->
+
+  <label for="nombre">Nombre:</label> <!--Texto complementario para acompañar a los input -->
+  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre"> <!--Una caja de texto con id nombre
+    name nombre y dentro de la caja de texto pone Tu nombre-->
+
+  <p>¡Visita nuestro <a href="https://www.ejemplo.com" target="_blank">sitio web</a>!</p> <!--Una etiqueta de
+    texto con un enlace el cual de todo el texto el enlace solo pilla 'sitio web'-->
+</body> <!--Se cierra el cuerpo de la página / body-->
+</html> <!--Se cierra la etiqueta html-->
+

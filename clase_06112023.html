@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+    <head> <meta charset="UTF-8" /> 
+        <title>Ejemplo de estilos selector descendente</title> 
+        <link rel="stylesheet" type="text/css" href="clase_06112023.css"/>
+        </head> 
+        <body> 
+            <section> 
+                <h1> <span>Titulo en Azul</span></h1>
+                <p> Aquí tenemos parte del texto <span>en rojo</span>.</p>
+                    <br /> 
+                    Incluso en un nivel inferior, como un 
+                    <a href="#"><span>enlace</span></a> 
+                </p> 
+                <br> 
+                Fuera del párrafo el <span> SPAN se mantiene negro</span> 
+                <p><a href="#"><span><em>Hola</em></span></a></p>
+                <p><a href="#">Enlace</a></p>
+                <p><span><a href="#">Enlace</a></span></p>
+                <p class="especial destacado error">Párrafo de texto...</p>
+                <p class="aviso">hola <em class="especial">y adios</em></p>
+                <div class="aviso">Estados Unidos <span class="especial">y Japon</span></div>
+                <ul id="menuPrincipal">
+                    <li class="destacado"><a href="#">Uno</a></li>
+                    <li class="destacado"><a href="#" id="inicio">Dos</a></li>
+                    <li class="destacado"><a href="#">Tres</a></li>
+                    <li class="destacado"><a href="#">Cuatro</a></li>
+                </ul>
+            </section> 
+    </body> 
+</html>

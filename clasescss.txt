@@ -1,0 +1,3 @@
+p.aviso{...}: Los parrafos que tengan clase aviso.
+p .aviso{...}: Los elementos que tengan clase aviso que este dentro de un p.
+p, .aviso{...}: Todos lo p y todos los calse aviso.

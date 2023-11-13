@@ -1,0 +1,33 @@
+p span { 
+    color: red; 
+}
+h1 span { 
+    color: blue; 
+}
+p a span em { 
+    color: green; 
+}
+p * a { 
+    color: pink; 
+}
+.error { 
+    color: yellow; 
+}
+.error.destacado {
+     color: blue;
+}
+.destacado { 
+    font-size: 15px; 
+}
+.especial { 
+    font-weight: bold; 
+}
+.aviso .especial { 
+    color: green;
+}
+div.aviso span.especial { 
+    color: orangered;
+}
+ul#menuPrincipal li.destacado a#inicio { 
+    color: burlywood; 
+}
