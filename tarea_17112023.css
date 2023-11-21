@@ -1,0 +1,48 @@
+table {
+    border: 1px;
+}
+
+#titulo {
+    color: cyan;
+}
+
+p strong {
+    color: red;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: red;
+}
+
+a em {
+    color:blue;
+}
+
+span [class = "especial"] {
+    color: purple;
+}
+
+caption {
+    color: blue;
+}
+
+tr > th [scope = "col"] :first-child {
+    color: yellow;
+}
+
+th [scope = "col"] :last-child {
+    color: red;
+}
+
