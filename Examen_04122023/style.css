@@ -1,0 +1,172 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-size: 18px;
+}
+
+.vacio {
+    margin-top: 12%;
+}
+
+p.capital::first-letter{
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: 'HWYGEXPD';
+    src: url('./Fuente/HWYGEXPD.ttf') format('truetype');
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    background-color: rgb(73, 64, 64);
+}
+
+nav h1 {
+    float: left;
+    font-family: 'HWYGEXPD';
+    font-size: 25px;
+    margin-left: 1%;
+    color: rgb(236, 236, 59);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: rgb(236, 236, 59);
+}
+
+nav a:visited {
+    color: rgb(236, 236, 59);
+}
+
+.boton {
+    background-color: red;
+    border: none;
+    color: rgb(236, 236, 59);
+    font-family: 'HWYGEXPD';
+    border-radius: 15%;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2%;
+    margin-right: 27px;
+    font-size: 20px;
+}
+
+button[class = boton] {
+    float: right;
+}
+
+button[class = boton] a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.informacion {
+    margin-top: 5%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 2%;
+    background-color: rgb(189, 255, 249);
+    color: black;
+    text-align: left;
+}
+
+.resumen {
+    margin-top: 5%;
+}
+
+.asignaturas {
+    margin-top: 5%;
+    background-color: rgb(189, 255, 249);
+    padding-bottom: 1.89%;
+    color: black;
+    text-align: center;
+}
+
+.asignaturas p{
+    padding-top: 1%;
+}
+
+div.asignaturas img{
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+div.asignaturas a{
+    color: black;
+    text-decoration: none;
+}
+
+div.asignaturas a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+a + a{
+    float: left;
+    margin-left: 5%;
+}
+
+.azul {
+    background-color: rgb(189, 255, 249);
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-top: 5%;
+}
+
+.negro {
+    margin-top: 5%;
+    padding-left: 1%;
+}
+
+div.enlaceSolo a{
+    color: white;
+}
+
+div.enlaceSolo a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.formulario {
+    background-color: rgb(189, 255, 249);
+    text-align: left;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    width: 50%;
+    height: auto;
+    border-radius: 15%;
+    padding-bottom: 5%;
+}
+
+legend {
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'HWYGEXPD';
+    font-size: 30px;
+}
+
+#textarea {
+    float: left;
+    margin-right: 15px;
+}
+
+footer {
+    margin-top: 5%;
+}
