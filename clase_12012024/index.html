@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clase 12 de enero de 2024</title>
+        <script>
+            function Ej1(){
+                var enlace = document.getElementsByTagName("a");
+                var numEnlaces = enlace.length
+
+                alert (numEnlaces)
+            }
+
+            function Ej2(){
+                var enlace = document.getElementsByTagName("a");
+                var numEnlaces = enlace.length
+                var contenidoEnlace = enlace[numEnlaces - 2].href;
+
+                alert("El penultimo enlace es: " + contenidoEnlace)
+            }
+            
+            function Ej3(){
+                var enlace = document.getElementsByTagName("a");
+                for (var cont = 0; cont < enlace.length; cont++){
+                    var contenidoEnlace = enlace[cont].href;
+                    if (contenidoEnlace == "http://prueba/"){
+                        alert("El enlace número " + cont + ": " + contenidoEnlace)
+                    }
+                }
+            }
+
+            function Ej4(){
+                var parrafos = document.getElementsByTagName("p");
+                var contenidoParrafo = parrafos[2];
+                var enlace = contenidoParrafo.getElementsByTagName("a");
+                for (var cont = 0; cont < enlace.length; cont++){
+                    var contenidoEnlace = enlace[cont].href
+                    alert("En el tercer párrafo aparecen los enlaces: " + contenidoEnlace)
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <!--Ejercicio de Lorem ipsum-->
+        <p>Lorem ipsum dolor sit amet, <a href="http://prueba">consectetuer adipiscing elit</a>. Sed 
+            mattis enim vitae orci. Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec,
+            commodo ultricies, turpis. Quisque sapien nunc, posuere vitae, rutrum et, luctus at, pede.
+            Pellentesque massa ante, ornare id, aliquam vitae, ultrices porttitor, pede. Nullam sit amet
+            nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut,
+            rhoncus non, mi. <a href="http://prueba2">Fusce porta</a>. Duis pellentesque, felis eu
+            adipiscing ullamcorper, odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum
+            dolor sit amet, consectetuer adipiscing elit. Duis scelerisque. Donec lacus neque, vehicula
+            in, eleifend vitae, venenatis ac, felis. Donec arcu. Nam sed tortor nec ipsum aliquam
+            ullamcorper. Duis accumsan metus eu urna. Aenean vitae enim. Integer lacus. Vestibulum
+            venenatis erat eu odio. Praesent id metus.</p>
+            <p>Aenean at nisl. Maecenas egestas dapibus odio. Vestibulum ante ipsum primis in faucibus
+            orci luctus et ultrices posuere cubilia Curae; Proin consequat auctor diam. <a
+            href="http://prueba">Ut bibendum blandit est</a>. Curabitur vestibulum. Nunc malesuada
+            porttitor sapien. Aenean a lacus et metus venenatis porta. Suspendisse cursus, sem non dapibus
+            tincidunt, lorem magna porttitor felis, id sodales dolor dolor sed urna. Sed rutrum nulla
+            vitae tellus. Sed quis eros nec lectus tempor lacinia. Aliquam nec lectus nec neque aliquet
+            dictum. Etiam <a href="http://prueba3">consequat sem quis massa</a>. Donec aliquam euismod
+            diam. In magna massa, mattis id, pellentesque sit amet, porta sit amet, lectus. Curabitur
+            posuere. Aliquam in elit. Fusce condimentum, arcu in scelerisque lobortis, ante arcu
+            scelerisque mi, at cursus mi risus sed tellus.</p>
+            <p>Donec sagittis, nibh nec ullamcorper tristique, pede velit feugiat massa, at sollicitudin
+            justo tellus vitae justo. Vestibulum aliquet, nulla sit amet imperdiet suscipit, nunc erat
+            laoreet est, a <a href="http://prueba">aliquam leo odio sed sem</a>. Quisque eget eros
+            vehicula diam euismod tristique. Ut dui. Donec in metus sed risus laoreet sollicitudin. Proin
+            et nisi non arcu sodales hendrerit. In sem. Cras id augue eu lorem dictum interdum. Donec
+            pretium. Proin <a href="http://prueba4">egestas</a> adipiscing ligula. Duis iaculis laoreet
+            turpis. Mauris mollis est sit amet diam. Curabitur hendrerit, eros quis malesuada tristique,
+            ipsum odio euismod tortor, a vestibulum nisl mi at odio. <a href="http://prueba5">Sed non
+            lectus non est pellentesque</a> auctor.</p>
+
+            <button onclick="Ej1()">Mostrar el número de enlaces</button>
+            <button onclick="Ej2()">Ver el penultimo enlace</button>
+            <button onclick="Ej3()">Numero de enlaces que enlazan a http://prueba</button>
+            <button onclick="Ej4()">Enlace del tercer párrafo</button>
+        <script>
+            /*Ejercicio 1_12_2
+            var num1 = prompt("Pon un número");
+            var num2 = prompt("Pon otro número");
+            var num3 = prompt("Pon un último número");
+            if (num1 > num2 && num1 > num3) {
+                alert("El número más alto es " + num1);
+            } else {
+                if (num2 > num1 && num2 > num3) {
+                    alert("El número más alto es " + num2);
+                } else {
+                    alert("El número más alto es " + num3);
+                }
+            }*/
+
+            /*Ejercicio 2_12_2
+                var frase = prompt("Pon una frase")
+                var letra = prompt("Escribe que letra en la que quieras saber cuantas ahi")
+                var repeticion = 0
+                for (var cont = 0; cont < frase.length; cont++) {
+                    if (letra == frase[cont]) {
+                        repeticion++
+                    }
+                }
+                alert("La letra " + letra + " aparece " + repeticion + " veces")*/
+
+            /*Ejercicio 6_12_2
+            let palabra = ["z", "f", "e", "d", "x", "o", "g"];
+            console.log(palabra.sort())*/
+        </script>
+
+        <!--Ejercicio 1_12_3-->
+
+    </body>
+</html>

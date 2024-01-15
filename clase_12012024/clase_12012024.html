@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript"> 
+        /*var parrafos; 
+        function ejecutar () { 
+            parrafos = document.getElementsByTagName("p"); 
+            for(let i=0; i<parrafos.length; i++) { 
+                let parrafo = parrafos[i].innerHTML; 
+                alert (parrafo); 
+            } 
+        }*/
+        function ejecutar() { 
+            var parrafoElegido = window.prompt (" Seleccione Párrafo (1,2,3): "); 
+            var parrafo = document.getElementById (parrafoElegido); 
+            document.write (parrafo.innerHTML); // Escribimos directamente dentro del body (hay que usar innerHTML)
+        } 
+    </script> 
+</head>
+<body>
+    <!--<p>Este es el primer párrafo</p> 
+    <p>Este es el segundo párrafo</p> 
+    <input type="button" value="Ver párrafos" onclick="ejecutar();" />-->
+    <!--<script>
+        /*const sumar = function suma(n1, n2){ return n1 + n2; }
+        console.log(sumar(3,4));
+        //console.log(suma(3,4)); -> Error suma no es accesible por sí misma, sin usar la constante sumar
+        var restar = function(n1, n2){ return n1 - n2; } //Con una función anónima, sin nombre
+        console.log(restar(3,4));*/
+        
+        ( function () {
+            let nombre = "Davinia"; //Si la declaráramos con var seguiría siendo local
+            alert("Hola " + nombre);
+        })();
+
+    </script>-->
+    <p id="1"> Primer Párrafo</p> 
+    <p id="2"> Segundo Párrafo</p> 
+    <p id="3"> Tercer Párrafo</p> 
+    <input type="button" value="Ver párrafo" onclick="ejecutar();" /> 
+</body>
+</html>
