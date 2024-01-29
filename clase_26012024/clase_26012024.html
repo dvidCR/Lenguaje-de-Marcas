@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Eventos</title>
+        <link rel="stylesheet" href="clase_26012024.css">
+        <script src="clase_26012024.js"></script>
+    </head>
+    <body>
+        <div onmouseout="fuera();" onmouseover="encima();"></div>
+        <div onmouseover="dentro(this);" onmouseout="fuera(this);">
+        </div>
+        <br><br>
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png" onmouseout="oculta(this);" />
+        <br><br>
+        <input id="pinchable" type="button" value="Púlsame" />
+        <br><br>
+        <form>
+            Usuario <input type="text" id="usuario" /> <br>
+            Contraseña <input type="password" id="clave" /> <br>
+            <input type="button" value="Enviar" />
+        </form>
+    </body>
+</html>
