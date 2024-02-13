@@ -3,6 +3,7 @@ window.onload = function() {
     Ejercicio1_String()
     Ejercicio2_String()
     Ejercicio1_Array()
+    Ejercicio3_Array()
 }
 
 function Ejercicio1_Boolean() {
@@ -80,3 +81,17 @@ function Ejercicio1_Array() {
 
 
 var frase = document.querySelector("#frase").value;
+
+function Ejercicio3_Array() {
+    let number = []
+
+    for (var cont = 0; cont < 10; cont++) {
+        var insertar = prompt("Ingresa un número")
+        var nuemero = Number(insertar)
+        number[nuemero]
+        var suma = number[cont] + number[cont + 1]
+    }
+
+    var media = suma / number.length
+    console.log(media)
+}
