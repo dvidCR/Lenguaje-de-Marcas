@@ -1,0 +1,10 @@
+button {
+    float: right;
+    padding: 5%;
+    margin-top: 20%;
+    margin-right: 26%;
+}
+
+td {
+    border: 5px solid black;
+}

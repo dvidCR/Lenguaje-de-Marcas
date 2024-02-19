@@ -1,4 +1,4 @@
-window.onload = function searchUserInfo() {
+function searchUserInfo() {
     // Hacer la solicitud a la API de GitHub
     fetch("https://api.github.com/users/dvidcr")
       .then(response => response.json())
@@ -23,6 +23,4 @@ window.onload = function searchUserInfo() {
         console.log('Número de repositorios:', repoCount);
         console.log('Avatar:', avatarUrl);
       })
-      // Atrapa el error y creando una funcion llamada error creo la mia propia para luego sacarla
-      .catch(error => console.error('Error al obtener la información:', error));
   }
