@@ -1,6 +1,6 @@
 localStorage.guardar = JSON.stringify([]);
 var cont = 1;
-var rep = 0
+//var rep = 0
 
 function dogAPI(imagen, raza) {
   var mostrar = document.getElementById(cont);
