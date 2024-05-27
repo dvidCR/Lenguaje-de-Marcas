@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="archivo.xsl" type="text/xsl"?>
+<!DOCTYPE Concurso>
+<Concurso nombre = "Concurso 2024">
+    <Participante>
+        <Codigo>P001</Codigo>
+        <Nombre>Juan</Nombre>
+        <Apellido>Pérez</Apellido>
+        <Edad>25</Edad>
+        <Provincia>Buenos Aires</Provincia>
+        <Puntos>85</Puntos>
+    </Participante>
+    <Participante id="2">
+        <Codigo>P002</Codigo>
+        <Nombre>María</Nombre>
+        <Apellido>Gómez</Apellido>
+        <Edad>30</Edad>
+        <Provincia>Córdoba</Provincia>
+        <Puntos>90</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P003</Codigo>
+        <Nombre>Carlos</Nombre>
+        <Apellido>Rodríguez</Apellido>
+        <Edad>28</Edad>
+        <Provincia>Santa Fe</Provincia>
+        <Puntos>78</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P004</Codigo>
+        <Nombre>Laura</Nombre>
+        <Apellido>Fernández</Apellido>
+        <Edad>22</Edad>
+        <Provincia>Mendoza</Provincia>
+        <Puntos>88</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P005</Codigo>
+        <Nombre>Pedro</Nombre>
+        <Apellido>Martínez</Apellido>
+        <Edad>35</Edad>
+        <Provincia>San Luis</Provincia>
+        <Puntos>82</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P006</Codigo>
+        <Nombre>Lucía</Nombre>
+        <Apellido>González</Apellido>
+        <Edad>27</Edad>
+        <Provincia>La Pampa</Provincia>
+        <Puntos>91</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P007</Codigo>
+        <Nombre>Javier</Nombre>
+        <Apellido>Sánchez</Apellido>
+        <Edad>29</Edad>
+        <Provincia>Chaco</Provincia>
+        <Puntos>76</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P008</Codigo>
+        <Nombre>Ana</Nombre>
+        <Apellido>Torres</Apellido>
+        <Edad>24</Edad>
+        <Provincia>Salta</Provincia>
+        <Puntos>89</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P009</Codigo>
+        <Nombre>Roberto</Nombre>
+        <Apellido>Ramírez</Apellido>
+        <Edad>31</Edad>
+        <Provincia>Jujuy</Provincia>
+        <Puntos>84</Puntos>
+    </Participante>
+    <Participante>
+        <Codigo>P010</Codigo>
+        <Nombre>Elena</Nombre>
+        <Apellido>Rivas</Apellido>
+        <Edad>26</Edad>
+        <Provincia>Tucumán</Provincia>
+        <Puntos>87</Puntos>
+    </Participante>
+</Concurso>
