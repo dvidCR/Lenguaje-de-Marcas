@@ -1,0 +1,30 @@
+public class Customer {
+    private datosPersonales datos_personales;
+    private List<Order> orders;
+
+    public Customer(datosPersonales datos_personales, String phoneNumber) {
+        this.datos_personales = datos_personales;
+        this.orders = new ArrayList<>();
+    }
+
+    // Methods related to contact details
+    public String getName() { return name; }
+    public String getEmail() { return email; }
+    public String getPhoneNumber() { return phoneNumber; }
+
+    // Methods related to orders
+    public void addOrder(Order order) { orders.add(order); }
+    public List<Order> getOrders() { return orders; }
+}
+
+class datosPersonales {
+    private String name;
+    private String email;
+    private String phoneNumber;
+
+    public datosPersonales(String name, String email) {
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+}

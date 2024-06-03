@@ -1,0 +1,25 @@
+public class Report {
+    public void generateReport() {
+        System.out.println("Generating report...");
+
+        int total = calculateTotals();
+
+        double average = calculateAverage(total);
+
+        printResults(total, average);
+    }
+
+    private int calculateTotals() {
+        return 100;
+    }
+
+    private double calculateAverage(int total) {
+        return total / 10.0; 
+    }
+
+    private void printResults(int total, double average) {
+        System.out.println("Total: " + total);
+        System.out.println("Average: " + average);
+    }
+}
+

@@ -1,0 +1,18 @@
+public class PaymentProcessor {
+    public void processPayment(Payment payment) {
+        // Payment processing logic
+    }
+}
+
+class Payment {
+    private String cardNumber;
+    private String cardHolder;
+    private String expiryDate;
+    private String securityCode;
+    private double amount;
+    
+    public void Payment(String cardNumber, String cardHolder, String expiryDate, String securityCode, double amount) {
+        // This, getters y setters
+    }
+}
+

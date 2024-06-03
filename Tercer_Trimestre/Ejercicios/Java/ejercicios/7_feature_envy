@@ -1,0 +1,28 @@
+public class Account {
+    private Customer customer;
+    private double balance;
+
+    public Account(Customer customer, double balance) {
+        this.customer = customer;
+        this.balance = balance;
+    }
+}
+
+public class Customer {
+    private String name;
+    private String email;
+
+    public Customer(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
+    public String getName() { return name; }
+    public String getEmail() { return email; }
+
+    public String getCustomerSummary() {
+        return customer.getName() + " (" + customer.getEmail() + ")";
+    }
+}
+
+

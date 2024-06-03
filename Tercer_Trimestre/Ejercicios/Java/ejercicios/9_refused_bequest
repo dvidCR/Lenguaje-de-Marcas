@@ -1,0 +1,15 @@
+public class BankAccount {
+    public void deposit(double amount) {
+        // Deposit logic
+    }
+
+    public void withdraw(double amount) {
+        // Withdraw logic
+    }
+}
+
+public class SavingsAccount {
+    // SavingsAccount does not need withdraw method
+}
+
+

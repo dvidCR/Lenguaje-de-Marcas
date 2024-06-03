@@ -1,0 +1,20 @@
+public class Person {
+    private DataPerson dataPerson;
+
+    public Person(DataPerson dataPerson) {
+        this.dataPerson = dataPerson;
+    }
+}
+
+class DataPerson {
+    private String name;
+    private int age;
+
+    public DataPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() { return name; }
+    public int getAge() { return age; }
+}

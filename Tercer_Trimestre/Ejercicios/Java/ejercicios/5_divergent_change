@@ -1,0 +1,17 @@
+public class Document {
+    private String content;
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getContent() {
+        return content;
+    }
+}
+
+public class Printer {
+    public void print(Document document) {
+        System.out.println("Printing content: " + document.getContent());
+    }
+}
